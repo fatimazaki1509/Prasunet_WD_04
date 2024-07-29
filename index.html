@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d3c9f084eb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <image src="Fatima..png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-circle-xmark " onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Fatima</span><br> Zaki From India</h1>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------------about------------------------------------------------------------------------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="userr.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="para">I am a second-year B.Tech CSE (AIML) student with a fervent passion for technology and a creative flair that drives my pursuits. My journey is focused on mastering the realms of Artificial Intelligence and Machine Learning, while also delving into the captivating world of graphic design and coding.
+                        Beyond the technical, I am dedicated to honing my public speaking skills, believing that effective communication is key to making a meaningful impact in the tech industry. As a budding web developer, I am eager to learn and grow, continually seeking opportunities to connect with professionals and contribute to the ever-evolving world of technology.
+                        Together, let's make waves in the tech universe and create a future powered by innovation and collaboration.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Achievements')">Achievements</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab"  id="Skills">
+                            <ul>
+                                <li> <span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                                <li> <span>Web Development</span><br>Frontend Web Development</li>
+                                <li> <span>App Development</span><br>Building Android/iOS Apps</li>
+                                <li> <span>Languages</span><br>Python,Java,HTML,CSS,Javascript</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Achievements">
+                            <ul>
+                                <li> <span>May-2024</span><br>Girlscript Summer Of  Code Contributor </li>
+                                <li> <span>June-2024</span><br>Web Development Intern at the Prasunet Company</li>
+                                <li> <span>March-2024</span><br>Kartavya Hackathon 2024 Winner Held under AXIS'24, at VNIT, Nagpur</li>
+                                <li> <span>May-2023</span><br>NASA International Space Apps Challenge Hackathon 2023 Winner.Also won the best project award</li>
+                                <li> <span>December-2023</span><br>Team Lead at various Hackathons including the one held under Techfest, IIT Bombay</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li> <span>Aug 2023-Present</span><br>G.H. RAISONI COLLEGE OF ENGINEERING <br>Bachelor Of Technology in Computer Science And Engineering <br>(Artificial Intelligence/Machine Learning)</li>
+                                <li> <span>Loyola High School</span><br>ISC Board 12th-93.4% <br>ICSE Board 10th-92.33%</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------------------------services------------------------------------------------------------------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design Experience</h2>
+                    <p>Throughout my journey in web designing, I have worked on various projects that allowed me to hone my skills and creativity. One of my notable projects includes designing a gym landing page that effectively communicates the brand's essence and services. Additionally, I developed a Tic Tac Toe app and a weather app, both showcasing my ability to blend functionality with aesthetic appeal. My proficiency in tools like Canva and Figma has been instrumental in creating visually engaging and user-friendly web designs.</p>
+                    <a href="https://github.com/fatimazaki1509/Prasunet_WD_01">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Designing Experience</h2>
+                    <p>My experience in UI/UX design has been both enriching and challenging, allowing me to understand the nuances of creating user-centric interfaces. I have worked on multiple projects where I focused on enhancing the user experience through intuitive and responsive designs. By leveraging tools such as Figma, I have been able to prototype and iterate on designs efficiently. One of my significant achievements includes designing the user interface for a weather app, where I emphasized simplicity and ease of navigation to provide users with a seamless experience.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                 <i class="fab fa-app-store"></i>
+                <h2>App Designing Experience</h2>
+                    <p>App designing has been a rewarding aspect of my career, enabling me to bring innovative ideas to life. I have designed and developed several applications, including a weather app and a Tic Tac Toe game, using Flutterflow. These projects have allowed me to explore the integration of design and functionality, ensuring that the apps are both visually appealing and highly functional. My experience with app designing has equipped me with the skills to create compelling user experiences that meet the needs of diverse audiences.</p>
+                    <a href="https://app.flutterflow.io/share/mental-well-ra9rrb">Learn more</a>
+                </div>
+            </div>
+        </div>
+         <!---------------------------------------------------------------------portfolio------------------------------------------->
+       <div id="portfolio">
+
+
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Healthcare App</h3>
+                        <p>Explore a holistic mental wellness journey with our FlutterFlow app, designed to provide personalized support, mindfulness exercises, and progress tracking. Prioritize your mental health with user-friendly features and expert-guided practices for a balanced lifestyle</p>
+                      <a href="https://app.flutterflow.io/share/mental-well-ra9rrb"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+               
+                <div class="work">
+                    <img src="work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Gym Landing Page</h3>
+                        <p>Discover fitness redefined with our stunning gym landing page, crafted to inspire and motivate. Seamlessly navigate through membership options, class schedules, and expert trainer profiles in an engaging, user-friendly design</p>
+                      <a href="https://github.com/fatimazaki1509/Prasunet_WD_01"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+               
+                <div class="work">
+                    <img src="work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <p>Stay ahead of the weather with our intuitive app, offering real-time updates, detailed forecasts, and personalized alerts. Experience a sleek, user-friendly interface that keeps you informed and prepared for any weather conditions</p>
+                      <a href="https://github.com/fatimazaki1509/Prasunet_WD_05"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+
+
+
+        </div>
+       </div>
+       <!----------------------------------------------------contact----------------------------------------------------------------->
+       <div id="contact">
+
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p ><i class="fa-solid fa-paper-plane"></i>fatimazaki1811d@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91 9939368069</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/fatima_zaki._?igsh=MTI2MXA5M2VzMW91bw=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/fatima-zaki-952a58249"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/fatimazaki1509"><i class="fa-brands fa-github"></i></a>
+                        
+                    </div>
+                    <a href="Resume Fatima ZAki.pdf" download class="btn btn2" >Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form >
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6"placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Fatima. Made with <i class="fa-solid fa-heart"></i> by Fatima  </p>
+        </div>
+       </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
